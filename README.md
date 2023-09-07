@@ -19,3 +19,22 @@ GitHub ei ole Gitin kilpailija, vaan se laajentaa Gitin käyttömahdollisuuksia.
 <div style="clear: both"></div>
 
 ## Miten hyödynnetään opetuksessa?
+
+Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna omalle koneelle. Kaikissa tapauksissa opiskelijalla ei tarvitse olla Gitiä asennettuna, mutta usein se jouhevoittaa käyttöä.
+
+1. **Tunneilla tehtyjen ohjelmaprojektien jakaminen**
+
+   GitHub mahdollistaa tunneilla tehtävien projektien helpon jakamisen linkittämällä GitHub-projektirepon esimerkiksi Moodleen. Opiskelija pystyy tarvittaessa hakemaan linkin kautta uusimman version projektista. Jos opiskelija on esimerkiksi ollut poissa tunneilta, niin hän pääsee helposti mukaan lataamalla uusimman projektireposta.
+
+   Toiminta ensimmäisellä kerralla:
+    - Alusta projektikansioon uuden repon komennolla `git init`.
+    - Lisää kansion projektitiedostot seuraavaan talletukseen komennolla `git add .`.
+    - Suorita talletus komennolla `git commit -m "7.9.2023 oppituntien tilanne"`.  
+    - Luo GitHubiin uuden repon kuvaavalla nimellä ilman lisukkeita. 
+    - Kytkee omalla koneella olevan repon GitHubiin reposivun **nn**-kohdan komennoilla.
+    - Linkittää GitHubin reposivun esimerkiksi Moodleen.
+
+    Toiminta seuraavilla kerroilla:
+    - Lisää kansion muuttuneet projektitiedostot seuraavaan committiin komennolla `git add .`.
+    - Suorita talletus komennolla `git commit -m "8.9.2023 oppituntien tilanne"`.
+    - Vie uudet muutokset GitHubiin komennolla `git push origin`.
