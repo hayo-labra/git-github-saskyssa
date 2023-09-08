@@ -26,7 +26,7 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
 
    GitHub mahdollistaa tunneilla tehtävien projektien helpon jakamisen linkittämällä GitHub-projektirepon esimerkiksi Moodleen. Opiskelija pystyy tarvittaessa hakemaan linkin kautta uusimman version projektista. Jos opiskelija on esimerkiksi ollut poissa tunneilta, niin hän pääsee helposti mukaan kopioimalla uusimman version projektista.
 
-   ![Projektikoodien jakaminen](images/github-projektikoodien-jako.png)
+   [![Projektikoodien jakaminen](images/github-projektikoodien-jako.png)](https://github.com/pekkatapio/javascript-salain-it21)
 
    Toiminta ensimmäisellä kerralla:
     - Alusta projektikansioon uusi repo komennolla `git init`.
@@ -40,3 +40,13 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
     - Lisää kansion muuttuneet projektitiedostot seuraavaan committiin komennolla `git add .`.
     - Suorita talletus komennolla `git commit -m "8.9.2023 oppituntien tilanne"`.
     - Vie uudet muutokset GitHubiin komennolla `git push origin`.
+
+2. **Opetusmateriaalissa sisältöön tehdyt muutokset**
+
+   GitHub näyttää selkeästi, mitä muutoksia projektiin on tehty edellisen talletuksen jälkeen. Tätä voi hyödyntää vaiheittain etenevässä opetusmateriaaleissa niin, että linkittää vaiheen lopuksi vastaavan kohdan GitHubin repossa.
+
+   Esimerkiksi React-opetusmateriaalin [Funktiokomponentti](https://neutroni.hayo.fi/~pta/book/react101/clicker/01-aloitus/03-komponentti.html)-sivulla tehdyt muutokset näyttävät GitHubin talletusnäkymässä seuraavalta:
+
+   [![lisää Lemon-komponentin -commit](images/github-tehdyt-muutokset.png)](https://github.com/pekkatapio/lemon-clicker/commit/2b7104f170cf2f9c5cf7b27011bb34f91c797aeb)
+
+   Tämän koosteen avulla opiskelija hahmottaa helpommin, mihin kohtiin materiaalissa olevat muutokset kohdistuivat. 
