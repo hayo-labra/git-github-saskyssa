@@ -24,10 +24,12 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
 
 1. **Tunneilla tehtyjen ohjelmaprojektien jakaminen**
 
-   GitHub mahdollistaa tunneilla tehtävien projektien helpon jakamisen linkittämällä GitHub-projektirepon esimerkiksi Moodleen. Opiskelija pystyy tarvittaessa hakemaan linkin kautta uusimman version projektista. Jos opiskelija on esimerkiksi ollut poissa tunneilta, niin hän pääsee helposti mukaan lataamalla uusimman projektireposta.
+   GitHub mahdollistaa tunneilla tehtävien projektien helpon jakamisen linkittämällä GitHub-projektirepon esimerkiksi Moodleen. Opiskelija pystyy tarvittaessa hakemaan linkin kautta uusimman version projektista. Jos opiskelija on esimerkiksi ollut poissa tunneilta, niin hän pääsee helposti mukaan kopioimalla uusimman version projektista.
+
+   ![Projektikoodien jakaminen](images/github-projektikoodien-jako.png)
 
    Toiminta ensimmäisellä kerralla:
-    - Alusta projektikansioon uuden repon komennolla `git init`.
+    - Alusta projektikansioon uusi repo komennolla `git init`.
     - Lisää kansion projektitiedostot seuraavaan talletukseen komennolla `git add .`.
     - Suorita talletus komennolla `git commit -m "7.9.2023 oppituntien tilanne"`.  
     - Luo GitHubiin uuden repon kuvaavalla nimellä ilman lisukkeita. 
