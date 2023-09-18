@@ -18,6 +18,30 @@ GitHub ei ole Gitin kilpailija, vaan se laajentaa Gitin käyttömahdollisuuksia.
 
 <div style="clear: both"></div>
 
+## Git-versiohallinnan käyttöönotto
+
+Git-versiohallintaa ei aina tarvitse olla asennettuna, mutta sen asennus helpottaa GitHubin käyttöä monissa tilanteissa. Alla on Gitin asennuksen suoraviivainen ohje.
+
+1. Lataa Gitin asennusohjelma sen [virallisilta kotisivuilta](https://git-scm.com/).
+
+2. Asenna Git käynnistämällä asennusohjelma. Voit valita asennusohjelmasta pääsääntöisesti *Next*-vaihtoehdon, ainoastaan *Choosing the default editor used by Git* -ruudussa kannattaa valita se tekstieditori, jota käytät aktiivisesti, kuten esimerkiksi Visual Studio Code.
+
+3. Asennuksen jälkeen määritellään vielä omat tiedot komentorivillä seuraavasti:
+   ```sh
+   git config --global user.name "Olli Opettaja"
+   git config --global user.email olli.opettaja@sasky.fi
+   ```
+
+4. Testaa gitin toiminta komentorivillä seuraavalla komennolla:
+   ```sh
+   git -v
+   ```
+
+   Jos git on asennettu oikein, niin komento tulostaa seuraavankaltaisen tekstin:
+   ```
+   git version 2.39.1.windows.1
+   ```
+
 ## Miten hyödynnetään opetuksessa?
 
 Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna omalle koneelle. Kaikissa tapauksissa opiskelijalla ei tarvitse olla Gitiä asennettuna, mutta usein se jouhevoittaa käyttöä.
@@ -50,3 +74,4 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
    [![lisää Lemon-komponentin -commit](images/github-tehdyt-muutokset.png)](https://github.com/pekkatapio/lemon-clicker/commit/2b7104f170cf2f9c5cf7b27011bb34f91c797aeb)
 
    Tämän koosteen avulla opiskelija hahmottaa helpommin, mihin kohtiin materiaalissa olevat muutokset kohdistuivat. 
+
