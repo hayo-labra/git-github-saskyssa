@@ -75,3 +75,12 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
 
    Tämän koosteen avulla opiskelija hahmottaa helpommin, mihin kohtiin materiaalissa olevat muutokset kohdistuivat. 
 
+3. **Kotisivujen julkaiseminen**
+
+   Staattiset kotisivut on helppo julkaista [GitHub Pages](https://pages.github.com/) -toiminnallisuuden kautta. Kun sivuston sivut ovat ohjeistuksen mukaan nimetyssä repossa, niin sivut näkyvät automaattisesti kotisivuina `github.io`-domainin alla.
+
+   Esimerkiksi Huittisten yksikön esports-opiskelijoiden järjestämien lanien kotisivut sijaitsevat GitHubissa. Lanien repo on julkinen ja se löytyy osoitteesta [https://github.com/lift-up-lan/lift-up-lan.github.io](https://github.com/lift-up-lan/lift-up-lan.github.io).
+
+   [![LiftUP-lanien reposivu](images/liftup-lan-repo.png)](https://github.com/lift-up-lan/lift-up-lan.github.io)
+
+   Tätä repoa on ollut muokkaamassa myös muutama opiskelija vuosien varrella. Itse kotisivut löytyvät osoitteista [https://lift-up-lan.github.io](https://lift-up-lan.github.io) ja [https://liftup.hayo.fi](https://liftup.hayo.fi). GitHub Pages tukee myös omia domainosoitteita.
