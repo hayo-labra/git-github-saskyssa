@@ -84,3 +84,39 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
    [![LiftUP-lanien reposivu](images/liftup-lan-repo.png)](https://github.com/lift-up-lan/lift-up-lan.github.io)
 
    Tätä repoa on ollut muokkaamassa myös muutama opiskelija vuosien varrella. Itse kotisivut löytyvät osoitteista [https://lift-up-lan.github.io](https://lift-up-lan.github.io) ja [https://liftup.hayo.fi](https://liftup.hayo.fi). GitHub Pages tukee myös omia domainosoitteita.
+
+4. **Ohjelmointiprojektit**
+ 
+   GitHubia voidaan myös käyttää juuri siihen, mihin se on tarkoitettu käytettäväksi eli useamman koodaajan ohjelmointiprojektien hallintaan. Opiskelijoiden kanssa voi noudattaa aika pitkälle samaa toimintamallia mitä käytetään open source -projektien kanssa.
+
+   Esimerkkinä tästä on opiskelijoiden kanssa toteutettava [hakuvahti-projekti](https://github.com/opiskelijaprojektit/hakuvahti).
+
+   [![hakuvahti-repon projektisivu](images/hakuvahti-repo.png)](https://github.com/opiskelijaprojektit/hakuvahti) 
+
+   Projektin alussa:
+
+    - Opiskelija luo forkin GitHubista löytyvästä projektista, johon aikoo osallistua.
+    - Opiskelija kloonaa projektin omalle koneelleen komennolla:
+      ```sh
+      git clone (repon osoite)
+      ```
+    - Opiskelija aloittaa uuden kehityshaaran komennolla:
+      ```sh
+      git checkout -b kehityshaaran-nimi
+      ```
+
+   Projektin lopussa:
+
+    - Opiskelija vie viimeisimmät muutokset repoon komennoilla:
+      ```sh
+      git add .
+      git commit -m "lyhyt kuvaus muutoksista"
+      git push origin kehityshaaran-nimi
+      ```
+    - Opiskelija menee GitHubissa projektin sivuille ja tekee seuraavat asiat:
+       - Tässä vaiheessa on mahdollista, että jokin toinen on tehnyt muutoksia samoihin tiedostoihin, jolloin omat muutokset ovat ristiriidassa niiden kanssa. Nämä muutokset pitää yhdistää ennen kuin pystyy jatkamaan.
+       - Painaa vihreää **Compare & pull request** -nappia.
+       - Kirjoittaa kuvaavan tekstin otsikoksi ja lyhyen kuvauksen kuvaustekstiksi.
+       - Painaa vihreää **Create pull request**-nappia.
+       - Odottaa opettajan palautetta.
+
