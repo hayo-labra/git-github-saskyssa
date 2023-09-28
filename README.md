@@ -120,3 +120,41 @@ Monet seuraavista tavoista edellyttävät, että opettajalla on Git asennettuna 
        - Painaa vihreää **Create pull request**-nappia.
        - Odottaa opettajan palautetta.
 
+## GitHub Campus Program
+
+![GitHub Campukset Suomen eteläosassa](images/github-campus.png)
+
+Kuntayhtymä on mukana GitHub Campus -ohjelmassa. Sen kautta saa mm. seuraavia etuja:
+
+ - Ilmainen käyttöoikeus *GitHub Enterprise* -ympäristöön (sekä *Server* että *Cloud*).
+ - Automaattinen pääsy [GitHub Education](https://education.github.com/) -palvelun resursseihin, kuten esimerkiksi opiskelijoille tarkoitettu [Student Develor Pack](https://education.github.com/pack) ja opettajille tarkoitettu [GitHub Classroom](https://classroom.github.com/).
+ - Pääsy uusiin ominaisuuksiin.
+ - Mahdollisuus tilata GitHub Education -aiheisia tuotteita (kuten ohjeita ja tarroja) opiskelijoilla jaettavaksi.
+
+Jotta opiskelija ja opettaja saa käyttöönsä GitHub Education -ohjelman tarjoamat herkut, on ohjelmaan rekisteröidyttävä.
+
+ - Opiskelijat voivat rekisteröidä itsensä kuntayhtymän `edu.sasky.fi`-sähköpostiosoitteella ja lähettämällä kuvan, josta ilmenee sen hetkinen opiskelijastatus (esimerkiksi läsnäolotodistus).
+
+ - Opettajat voivat rekisteröidä itsensä kuntayhtymän `sasky.fi`-sähköpostiosoitteella ja lähettämällä kuvan, josta ilmenee työsuhteen voimassaolo (esimerkiksi väliaikainen työtodistus).
+
+## GitHub Classroom
+
+GitHub Classroom on GitHub Education -ohjelmaan kuuluva palvelu, jolla opettajat voivat jakaa tehtäviä opiskelijoille. Tehtäviin vastaaminen tapahtuu samalla periaatteella ja samoilla työkaluilla kuin sovelluskehityksen versiohallintaprosessi toimii. GitHub Classroom tuo tehtävien vastaamiseen jonkin verran "lisäkohinaa", jos sitä verrataan Moodle-tehtäviin vastaamiseen. Isoin hyöty tulee ohjelmointitehtävien automaattisesti testauksesta, jolloin opettajan ei tarvitse käydä yksittäisiä vastauksia lävitse. Toinen selkeä hyöty on Git-GitHub-kehitysprosessin oppiminen.
+
+Opiskelijan prosessi lyhyesti:
+
+- Opiskelija aktivoi itselleen tehtävän, jolloin tehtävästä tehdään GitHubissa kopio opiskelijan omalle tunnukselle.
+- Opiskelija kloonaa tehtävän omalle koneelle tai muokkaa tehtävää suoraan GitHubissa.
+- Opiskelija palauttaa tehtävän vastauksen tekemällä talletuksen (commit) ja tarvittaessa työntämällä paikalliset muutokse GitHubiin (push).
+
+  ![Opiskelijan GitHub Classroom -tehtävä GitHubissa](images/github-classroom-opiskelija.png)
+
+Opettajan prosessi lyhyesti:
+
+- Opettaja luo GitHub Classroomissa uuden Classroom-luokan ja päättää, miten opiskelijoiden tiedot tuodaan Classroomin puolelle (Moodle LTI vai syötetäänkö manuaalisesti).
+- Opettaja luo ensin tehtävän ja sille tarvittavat testit. Tehtävä testeineen sijoitetaan omaan GitHub-repoon.
+- Opettaja lisää Classroomiin uuden tehtävän, määrittelee testauksen suoritusympäristön ja pisteytyksen.
+- Opettaja jakaa tehtävälinkin opiskeljoille ja jää odottamaan opiskelijoiden vastauksia.
+- Opettaja näkee GitHub Classroomista tehtävän alta, ketkä ovat ko. tehtävän palauttaneet ja kenellä tehtävän testit ovat menneet hyväksytysti lävitse.
+
+  ![Opiskelijan tehtävä kooste opettajalle GitHub Classroomissa](images/github-classroom-opettaja.png)
